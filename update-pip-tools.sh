@@ -11,7 +11,14 @@ if ! workon ${VENV:-youtube-dl-api-server-heroku}; then
     mkvirtualenv ${VENV:-youtube-dl-api-server-heroku} -r requirements-dev.txt -i virtualenvwrapper
 fi
 
+echo "Updating venv dev packages..."
+pip install -U pip
+pip install -U -r requirements-dev.txt
 
+echo "Updating project packages..."
+pip-compile --upgrade --generate-hashes
+pip-compile --upgrade --generate-hashes requirements-dev.in
+pipenv lock
 
 echo "Syncing venv with latest project packages..."
 pip-sync  requirements.txt requirements-dev.txt
