@@ -12,6 +12,7 @@ if ! workon ${VENV:-youtube-dl-api-server-heroku}; then
 fi
 
 echo "Updating venv dev packages..."
+pip-compile --generate-hashes requirements-dev.in
 pip install -U pip
 pip install -U -r requirements-dev.txt
 

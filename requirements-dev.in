@@ -1,6 +1,6 @@
 -c requirements.txt
 virtualenvwrapper
 pip-tools
-pipenv
+pipenv>=2022.1.8
 pre-commit
 honcho
