@@ -1,4 +1,5 @@
--c requirements.txt
+youtubedlapi_server_infusiblecoder>=2.1
+gunicorn
 virtualenvwrapper
 pip-tools
 pipenv>=2022.1.8

@@ -23,7 +23,7 @@ echo "Updating project packages..."
 pip-compile --upgrade --generate-hashes
 pip-compile --upgrade --generate-hashes requirements.in
 pip-compile --upgrade --generate-hashes requirements-dev.in
-pipenv lock
+pipenv lock --clear
 
 echo "Syncing venv with latest project packages..."
 pip-sync  requirements.txt requirements-dev.txt
