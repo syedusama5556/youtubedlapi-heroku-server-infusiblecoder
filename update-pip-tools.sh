@@ -5,10 +5,10 @@ pip3 install -U virtualenvwrapper
 source `which virtualenvwrapper.sh`
 
 VENV=`cat .venv`
-echo "Activating ${VENV:-youtube-dl-api-server-heroku} venv..."
-if ! workon ${VENV:-youtube-dl-api-server-heroku}; then
-    echo "Building venv ${VENV:-youtube-dl-api-server-heroku}..."
-    mkvirtualenv ${VENV:-youtube-dl-api-server-heroku} -r requirements-dev.txt -i virtualenvwrapper
+echo "Activating ${VENV:-youtubedlapi-heroku-server-infusiblecoder} venv..."
+if ! workon ${VENV:-youtubedlapi-heroku-server-infusiblecoder}; then
+    echo "Building venv ${VENV:-youtubedlapi-heroku-server-infusiblecoder}..."
+    mkvirtualenv ${VENV:-youtubedlapi-heroku-server-infusiblecoder} -r requirements-dev.txt -i virtualenvwrapper
 fi
 
 echo "Updating venv dev packages..."

@@ -1,2 +1,2 @@
-youtubedlapi_server_infusiblecoder
+youtubedlapi_server_infusiblecoder>=2.1
 gunicorn
