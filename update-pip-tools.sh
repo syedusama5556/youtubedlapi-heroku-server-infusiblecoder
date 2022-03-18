@@ -12,12 +12,16 @@ if ! workon ${VENV:-youtube-dl-api-server-heroku}; then
 fi
 
 echo "Updating venv dev packages..."
+pip-compile --generate-hashes requirements.in
 pip-compile --generate-hashes requirements-dev.in
+
 pip install -U pip
+pip install -U -r requirements.txt
 pip install -U -r requirements-dev.txt
 
 echo "Updating project packages..."
 pip-compile --upgrade --generate-hashes
+pip-compile --upgrade --generate-hashes requirements.in
 pip-compile --upgrade --generate-hashes requirements-dev.in
 pipenv lock
 

@@ -1,9 +1,9 @@
 {
-  "name": "youtube-dl-api-server",
+  "name": "youtubedlapi-server-infusiblecoder",
   "repository": "https://github.com/iphoting/youtube-dl-api-server-heroku",
   "keywords": [
     "heroku",
-    "youtube-dl",
+    "yt-dlp",
     "rest-api",
     "python"
   ],

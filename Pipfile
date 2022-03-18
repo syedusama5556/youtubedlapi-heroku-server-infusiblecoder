@@ -4,7 +4,7 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
-youtube-dl-server = ">=0.3"
+youtubedlapi-server-infusiblecoder = "*"
 
 [dev-packages]
 virtualenvwrapper = "*"
