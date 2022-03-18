@@ -4,12 +4,12 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
-youtubedlapi-server-infusiblecoder = "*"
+youtubedlapi-server-infusiblecoder = ">=2.1"
 
 [dev-packages]
 virtualenvwrapper = "*"
 pip-tools = "*"
-pipenv = ">=2022.1.8"
+pipenv = "*"
 pre-commit = "*"
 honcho = "*"
 
