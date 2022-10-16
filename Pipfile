@@ -4,7 +4,7 @@ verify_ssl = true
 
 [packages]
 gunicorn = "*"
-youtubedlapi-server-infusiblecoder = ">=2.5"
+youtubedlapi-server-infusiblecoder = ">=2.6"
 
 [dev-packages]
 virtualenvwrapper = "*"
@@ -14,4 +14,4 @@ pre-commit = "*"
 honcho = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"

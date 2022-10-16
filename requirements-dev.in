@@ -1,4 +1,4 @@
-youtubedlapi_server_infusiblecoder>=2.5
+youtubedlapi-server-infusiblecoder>=2.6
 gunicorn
 virtualenvwrapper
 pip-tools
