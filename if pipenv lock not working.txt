@@ -1,0 +1,2 @@
+pip install pipenv==2020.8.13
+pipenv lock --clear

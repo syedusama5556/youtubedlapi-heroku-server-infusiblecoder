@@ -5,3 +5,4 @@ pip-tools
 pipenv>=2022.1.8
 pre-commit
 honcho
+wheel>=0.38.4

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 echo "Installing/Updating virtualenvwrapper..."
-pip3 install -U virtualenvwrapper
+pip install -U virtualenvwrapper
 source `which virtualenvwrapper.sh`
 
 VENV=`cat .venv`
