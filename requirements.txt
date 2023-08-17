@@ -2,7 +2,7 @@
 blinker==1.6.2
 brotli==1.0.9
 certifi==2023.7.22
-click==8.1.6
+click==8.1.7
 flask==2.3.2
 gunicorn==20.1.0
 itsdangerous==2.1.2
